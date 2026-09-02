@@ -3,57 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>我的网站</title>
+  <meta name="description" content="蒙秀元的个人主页，用于展示个人介绍、学习作品和项目内容。" />
+  <title>蒙秀元的个人主页</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero">
     <nav class="nav">
-      <div class="logo">Jianzhan</div>
+      <div class="logo">蒙秀元</div>
       <div class="links">
-        <a href="#about">介绍</a>
-        <a href="#works">内容</a>
+        <a href="#about">关于我</a>
+        <a href="#works">展示内容</a>
         <a href="#contact">联系</a>
       </div>
     </nav>
 
     <section class="hero-content">
-      <p class="eyebrow">Welcome to my site</p>
-      <h1>你好，这是我的第一个网站</h1>
-      <p class="subtitle">这里可以用来展示个人介绍、作品、课程作业、项目内容，或者以后改成正式的网页。</p>
-      <a class="button" href="#about">开始浏览</a>
+      <p class="eyebrow">Personal Homepage</p>
+      <h1>你好，我是蒙秀元</h1>
+      <p class="subtitle">这里是我的个人网站，用来整理个人介绍、课程作业、作品展示和后续项目。网站会持续更新，慢慢变成更完整的个人主页。</p>
+      <div class="actions">
+        <a class="button" href="#works">查看内容</a>
+        <a class="button ghost" href="https://github.com/x47011039-svg/jianzhan">GitHub 仓库</a>
+      </div>
     </section>
   </header>
 
   <main>
-    <section id="about" class="section">
-      <h2>网站介绍</h2>
-      <p>这是一个简单、干净、适合继续修改的静态网站模板。你可以把这里改成自己的个人简介、品牌介绍或者项目说明。</p>
+    <section id="about" class="section intro">
+      <p class="section-label">About</p>
+      <h2>关于我</h2>
+      <p>我是蒙秀元，目前正在学习和尝试搭建自己的个人网站。这个页面会作为一个起点，记录学习过程、展示课程成果，也可以逐步扩展成个人作品集。</p>
     </section>
 
-    <section id="works" class="section grid">
-      <article class="card">
-        <h3>个人主页</h3>
-        <p>展示你的姓名、头像、经历、兴趣和联系方式。</p>
-      </article>
-      <article class="card">
-        <h3>作品展示</h3>
-        <p>放课程作业、图片、视频、文章或项目链接。</p>
-      </article>
-      <article class="card">
-        <h3>项目介绍</h3>
-        <p>介绍一个网站、店铺、活动、社团或创业想法。</p>
-      </article>
+    <section id="works" class="section">
+      <p class="section-label">Showcase</p>
+      <h2>展示内容</h2>
+      <div class="grid">
+        <article class="card">
+          <span>01</span>
+          <h3>个人介绍</h3>
+          <p>展示个人基本信息、学习方向、兴趣爱好和成长记录。</p>
+        </article>
+        <article class="card">
+          <span>02</span>
+          <h3>课程作业</h3>
+          <p>整理平时课程中的论文、策划案、PPT、脚本和调研内容。</p>
+        </article>
+        <article class="card">
+          <span>03</span>
+          <h3>项目作品</h3>
+          <p>以后可以放网站项目、视频作品、图片作品或其他实践成果。</p>
+        </article>
+      </div>
     </section>
 
     <section id="contact" class="section contact">
-      <h2>联系我</h2>
-      <p>你可以在这里放邮箱、微信、GitHub 或其他联系方式。</p>
+      <p class="section-label">Contact</p>
+      <h2>联系与域名</h2>
+      <p>当前网站已部署在 GitHub Pages。后续可以绑定域名 <strong>689540.xyz</strong>，也可以继续补充邮箱、社交账号或个人简介。</p>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Jianzhan. All rights reserved.</p>
+    <p>© 2026 蒙秀元. Built with GitHub Pages.</p>
   </footer>
 </body>
 </html>
