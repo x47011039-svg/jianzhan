@@ -3,70 +3,105 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="蒙秀元的个人主页，用于展示个人介绍、学习作品和项目内容。" />
-  <title>蒙秀元的个人主页</title>
+  <meta name="description" content="蒙秀元的个人主页，展示融媒体学习、影像脚本、文字作品和校园创作记录。" />
+  <meta name="theme-color" content="#1637f2" />
+  <title>蒙秀元 · 个人主页</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav class="nav">
-      <div class="logo">蒙秀元</div>
+  <header class="hero" id="top">
+    <nav class="nav" aria-label="主导航">
+      <a class="logo" href="#top" aria-label="返回首页">蒙秀元</a>
       <div class="links">
-        <a href="#about">关于我</a>
-        <a href="#works">展示内容</a>
+        <a href="#about">关于</a>
+        <a href="#focus">方向</a>
+        <a href="#works">作品</a>
         <a href="#contact">联系</a>
       </div>
     </nav>
 
     <section class="hero-content">
-      <p class="eyebrow">Personal Homepage</p>
-      <h1>你好，我是蒙秀元</h1>
-      <p class="subtitle">这里是我的个人网站，用来整理个人介绍、课程作业、作品展示和后续项目。网站会持续更新，慢慢变成更完整的个人主页。</p>
+      <p class="eyebrow">Personal Portfolio · 2026</p>
+      <h1>把观察写下来，<br />把想法拍出来。</h1>
+      <p class="subtitle">你好，我是蒙秀元，一名正在学习传播、影像与写作的学生。这里是我的个人主页，用来整理课程作品、拍摄脚本、学习记录和后续项目。</p>
       <div class="actions">
-        <a class="button" href="#works">查看内容</a>
-        <a class="button ghost" href="https://github.com/x47011039-svg/jianzhan">GitHub 仓库</a>
+        <a class="button" href="#works">查看作品方向</a>
+        <a class="button ghost" href="https://github.com/x47011039-svg/jianzhan" target="_blank" rel="noreferrer">GitHub 仓库</a>
       </div>
     </section>
   </header>
 
   <main>
     <section id="about" class="section intro">
-      <p class="section-label">About</p>
-      <h2>关于我</h2>
-      <p>我是蒙秀元，目前正在学习和尝试搭建自己的个人网站。这个页面会作为一个起点，记录学习过程、展示课程成果，也可以逐步扩展成个人作品集。</p>
+      <p class="section-label">01 / About</p>
+      <div class="split">
+        <h2>这是一个持续更新的个人名片。</h2>
+        <div class="copy">
+          <p>我关注融媒体传播、广播电视、短视频表达和校园影像创作。对我来说，作品不只是完成一次作业，也是在练习怎样观察现实、组织材料、表达观点。</p>
+          <p>这个网站会先作为个人主页使用，之后可以继续补充头像、邮箱、课程论文、策划案、拍摄脚本、图片作品和项目链接，慢慢变成完整作品集。</p>
+        </div>
+      </div>
     </section>
 
-    <section id="works" class="section">
-      <p class="section-label">Showcase</p>
-      <h2>展示内容</h2>
-      <div class="grid">
+    <section id="focus" class="section focus-section">
+      <p class="section-label">02 / Focus</p>
+      <h2>目前重点方向</h2>
+      <div class="grid four">
         <article class="card">
           <span>01</span>
-          <h3>个人介绍</h3>
-          <p>展示个人基本信息、学习方向、兴趣爱好和成长记录。</p>
+          <h3>融媒体学习</h3>
+          <p>围绕广播电视、新媒体传播和出镜表达，整理课程中的思考和作业成果。</p>
         </article>
         <article class="card">
           <span>02</span>
-          <h3>课程作业</h3>
-          <p>整理平时课程中的论文、策划案、PPT、脚本和调研内容。</p>
+          <h3>影像脚本</h3>
+          <p>练习分镜设计、拍摄策划、声音节奏和校园场景表达，让想法更适合被看见。</p>
         </article>
         <article class="card">
           <span>03</span>
-          <h3>项目作品</h3>
-          <p>以后可以放网站项目、视频作品、图片作品或其他实践成果。</p>
+          <h3>文字表达</h3>
+          <p>写论文、读书报告、调研内容和短视频文案，把复杂问题说得更清楚。</p>
+        </article>
+        <article class="card">
+          <span>04</span>
+          <h3>项目归档</h3>
+          <p>把阶段性成果放在这里，方便复盘、展示，也方便以后继续迭代。</p>
         </article>
       </div>
     </section>
 
+    <section id="works" class="section works">
+      <p class="section-label">03 / Works</p>
+      <div class="split">
+        <h2>接下来会放什么？</h2>
+        <div class="timeline">
+          <article>
+            <strong>课程作业</strong>
+            <p>广播电视学导论、新闻传播相关论文、课堂调研与展示材料。</p>
+          </article>
+          <article>
+            <strong>创作脚本</strong>
+            <p>校园短片、广告分镜、出镜报道脚本和短视频策划。</p>
+          </article>
+          <article>
+            <strong>个人项目</strong>
+            <p>网站练习、作品集更新、GitHub 项目和后续可公开展示的成果。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="section contact">
-      <p class="section-label">Contact</p>
-      <h2>联系与域名</h2>
-      <p>当前网站已部署在 GitHub Pages。后续可以绑定域名 <strong>689540.xyz</strong>，也可以继续补充邮箱、社交账号或个人简介。</p>
+      <p class="section-label">04 / Contact</p>
+      <div class="contact-box">
+        <h2>网站已经上线：689540.xyz</h2>
+        <p>这里会继续更新个人介绍和作品内容。后续如果补充邮箱、二维码、头像或代表作品，我可以继续帮你加到页面里。</p>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 蒙秀元. Built with GitHub Pages.</p>
+    <p>© 2026 蒙秀元 · 学习、记录、表达</p>
   </footer>
 </body>
 </html>
